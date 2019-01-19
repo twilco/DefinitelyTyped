@@ -221,6 +221,9 @@ export { ProgressProps } from './lib/Progress';
 import { default as Row_ } from './lib/Row';
 export class Row<T = {}> extends Row_<T> {}
 export { RowProps } from './lib/Row';
+import { default as Spinner_ } from './lib/Spinner';
+export class Spinner<T = {}> extends Spinner_<T> {}
+export { SpinnerProps } from './lib/Spinner';
 import { default as TabContent_ } from './lib/TabContent';
 export class TabContent<T = {}> extends TabContent_<T> {}
 export { TabContentProps } from './lib/TabContent';
